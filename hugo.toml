@@ -1,0 +1,28 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'autophugo'
+
+[params]
+breadcrumb_use_title = true
+filename_as_phototitle = true
+images_downloadable = false
+
+[Author]
+name = "MerkerXu"
+email = "merkerxu@gmail.com"
+
+[[params.header.links]]
+name = "About"
+url = "#footer"
+icon = "fa-info-circle"
+
+[params.footer.paragraph]
+headline = "Magna feugiat sed adipiscing"
+text = "Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum."
+
+
+[[params.footer.social.links]]
+label = "Github"
+url = "#"
+icon = "fa-github"
