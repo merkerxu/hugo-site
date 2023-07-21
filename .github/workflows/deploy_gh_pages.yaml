@@ -5,14 +5,13 @@ on:
   push:
     branches:
       - main # set  a branch to deploy
-  pull_requests:
 
 permissions:
   contents: write
 
 jobs:
   deploy:
-    runs-on: ubantu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: action/checkout@v2
         with:
